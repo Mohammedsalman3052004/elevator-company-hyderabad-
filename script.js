@@ -4,7 +4,7 @@
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
 
   /* ---------- CONFIG (same form endpoint + field names as the original Hyderabad page) ---------- */
-  var ENDPOINT = 'https://emailjsfuntions-428145106157.asia-south1.run.app/sampoojitha-heights-popup-submit-form';
+  var ENDPOINT = 'https://emailjsfuntions-428145106157.asia-south1.run.app/teknix-hyderbad-popup-submit-form';
   var THANK_YOU = 'thankyou.html';
 
   document.body.classList.remove('js-off');
