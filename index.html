@@ -57,8 +57,16 @@
     <main id="top">
         <!-- HERO -->
         <section class="hero">
-            <div class="bg"><img src="./assets/images/newbanner1.jpg"
-                    alt="Teknix elevators and escalators in a modern building"></div>
+            <div class="bg">
+                <picture>
+                    <!-- Mobile banner -->
+                    <source media="(max-width: 767px)" srcset="./Images/mobi-banner.png">
+
+                    <!-- Desktop banner -->
+                    <img src="./Images/banner.png" alt="Teknix elevators and escalators in a modern building"
+                        fetchpriority="high">
+                </picture>
+            </div>
             <div class="in">
                 <div class="eyebrow rv">Elevator Company in Hyderabad</div>
                 <h1 class="ln"><span class="mask"><span style="--i:0">Elevator that takes</span></span><span
@@ -123,8 +131,8 @@
                         aria-label="Next">→</button></div>
             </div>
             <div class="pgrid rv">
-                <div class="pimg"><img class="vimg" src="./Images/elevators1.png"
-                        alt="Passenger Elevators in Hyderabad" loading="lazy">
+                <div class="pimg"><img class="vimg" src="./Images/elevators1.png" alt="Passenger Elevators in Hyderabad"
+                        loading="lazy">
                     <div class="tag">Passenger Elevators in Hyderabad</div>
                 </div>
                 <div class="pinfo">
@@ -286,44 +294,52 @@
             <h2 class="t ln"><span class="mask"><span style="--i:0">Features</span></span></h2>
             <p class="lede rv">Exclusive features of Teknix Elevators that make them everyone’s first choice.</p>
             <div class="fgrid">
-                <div class="fc rv"><span class="ic"><img class="d" src="./assets/images/Spacious Car-1.webp" alt=""><img class="l"
-                            src="./assets/images/Spacious Car-1.webp" alt=""></span>
+                <div class="fc rv"><span class="ic"><img class="d" src="./assets/images/Spacious Car-1.webp" alt=""><img
+                            class="l" src="./assets/images/Spacious Car-1.webp" alt=""></span>
                     <h3>Spacious Car</h3>
                 </div>
-                <div class="fc rv" style="--d:0.05s"><span class="ic"><img class="d" src="./assets/images/Power Saver-1.webp"
-                            alt=""><img class="l" src="./assets/images/Power Saver-1.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.05s"><span class="ic"><img class="d"
+                            src="./assets/images/Power Saver-1.webp" alt=""><img class="l"
+                            src="./assets/images/Power Saver-1.webp" alt=""></span>
                     <h3>Power Saver</h3>
                 </div>
-                <div class="fc rv" style="--d:0.1s"><span class="ic"><img class="d" src="./assets/images/Door Sensors.webp"
-                            alt=""><img class="l" src="./assets/images/Door Sensors.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.1s"><span class="ic"><img class="d"
+                            src="./assets/images/Door Sensors.webp" alt=""><img class="l"
+                            src="./assets/images/Door Sensors.webp" alt=""></span>
                     <h3>Door Sensors</h3>
                 </div>
-                <div class="fc rv" style="--d:0.15s"><span class="ic"><img class="d" src="./assets/images/Smooth & Silent operations.webp"
-                            alt=""><img class="l" src="./assets/images/Smooth & Silent operations.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.15s"><span class="ic"><img class="d"
+                            src="./assets/images/Smooth & Silent operations.webp" alt=""><img class="l"
+                            src="./assets/images/Smooth & Silent operations.webp" alt=""></span>
                     <h3>Smooth &amp; Silent operations</h3>
                 </div>
-                <div class="fc rv" style="--d:0.2s"><span class="ic"><img class="d" src="./assets/images/wide range.webp"
-                            alt=""><img class="l" src="./assets/images/wide range.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.2s"><span class="ic"><img class="d"
+                            src="./assets/images/wide range.webp" alt=""><img class="l"
+                            src="./assets/images/wide range.webp" alt=""></span>
                     <h3>Wide Range</h3>
                 </div>
-                <div class="fc rv"><span class="ic"><img class="d" src="./assets/images/Anti Squeeze Door System.webp" alt=""><img class="l"
-                            src="./assets/images/Anti Squeeze Door System.webp" alt=""></span>
+                <div class="fc rv"><span class="ic"><img class="d" src="./assets/images/Anti Squeeze Door System.webp"
+                            alt=""><img class="l" src="./assets/images/Anti Squeeze Door System.webp" alt=""></span>
                     <h3>Anti Squeeze Door System</h3>
                 </div>
-                <div class="fc rv" style="--d:0.05s"><span class="ic"><img class="d" src="./assets/images/Light Curtains.webp"
-                            alt=""><img class="l" src="./assets/images/Light Curtains.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.05s"><span class="ic"><img class="d"
+                            src="./assets/images/Light Curtains.webp" alt=""><img class="l"
+                            src="./assets/images/Light Curtains.webp" alt=""></span>
                     <h3>Light Curtains</h3>
                 </div>
-                <div class="fc rv" style="--d:0.1s"><span class="ic"><img class="d" src="./assets/images/Dual rescue disc brakes.webp"
-                            alt=""><img class="l" src="./assets/images/Dual rescue disc brakes.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.1s"><span class="ic"><img class="d"
+                            src="./assets/images/Dual rescue disc brakes.webp" alt=""><img class="l"
+                            src="./assets/images/Dual rescue disc brakes.webp" alt=""></span>
                     <h3>Dual rescue disc brakes</h3>
                 </div>
-                <div class="fc rv" style="--d:0.15s"><span class="ic"><img class="d" src="./assets/images/Earthquake Protection System.webp"
-                            alt=""><img class="l" src="./assets/images/Earthquake Protection System.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.15s"><span class="ic"><img class="d"
+                            src="./assets/images/Earthquake Protection System.webp" alt=""><img class="l"
+                            src="./assets/images/Earthquake Protection System.webp" alt=""></span>
                     <h3>Earthquake Protection System</h3>
                 </div>
-                <div class="fc rv" style="--d:0.2s"><span class="ic"><img class="d" src="./assets/images/Teknix rescue device.webp"
-                            alt=""><img class="l" src="./assets/images/Teknix rescue device.webp" alt=""></span>
+                <div class="fc rv" style="--d:0.2s"><span class="ic"><img class="d"
+                            src="./assets/images/Teknix rescue device.webp" alt=""><img class="l"
+                            src="./assets/images/Teknix rescue device.webp" alt=""></span>
                     <h3>Teknix rescue device</h3>
                 </div>
             </div>
@@ -383,7 +399,8 @@
                     <div><b>8</b><span>Offices</span></div>
                 </div>
             </div>
-            <div class="im ri" data-ri><img src="./Images/corporate-profile.png" alt="Teknix home elevator" loading="lazy">
+            <div class="im ri" data-ri><img src="./Images/corporate-profile.png" alt="Teknix home elevator"
+                    loading="lazy">
             </div>
         </section>
 
